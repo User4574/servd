@@ -1,0 +1,9 @@
+h1. servd
+
+h2. Lightweight low-config no-frills webserver
+
+servd is a very non-featureful webserver. It doesn't yet even do the web part.
+
+It roots itself in the directory it is called from.
+
+Call it with a port. It only listens locally.
