@@ -1,5 +1,5 @@
 TARGET=servd
-PREQS=server.o serverutils.o context.o
+PREQS=server.o context.o
 
 all: ${TARGET}
 
@@ -8,3 +8,8 @@ ${TARGET}: ${PREQS}
 
 %.o: %.d
 	dmd -c $<
+
+.PHONY: clean
+
+clean:
+	rm *.o servd
