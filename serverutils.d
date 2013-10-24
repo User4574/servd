@@ -1,4 +1,4 @@
-bool inRoot(char[] path) {
+bool inRoot(string path) {
   auto level = 0;
   if (path[0] == '/') return false; 
   while (path.length > 0) {

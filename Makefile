@@ -1,5 +1,5 @@
-TARGET=server
-PREQS=server.o serverutils.o
+TARGET=servd
+PREQS=server.o serverutils.o context.o
 
 all: ${TARGET}
 
